@@ -29,3 +29,4 @@ While the project is extremely rough around the edges, I tried to follow some be
 - Better breakpoint management and definition. Currently its just using default tailwind breakpoints where necessary.
 - No sharing of types between client and server
 - We can make this a monorepo and be able to easily share types between client and server.
+- Skeletons should be in the layouts. The main components can be re-structured to move as much code as possible into SSR layouts, and only dynamically rendered jsx in client side rendered files.
