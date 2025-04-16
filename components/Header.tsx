@@ -30,8 +30,8 @@ export default function Header() {
 
   return (
     <Card>
-      <CardContent className="header-container">
-        <div className="header-logo-section">
+      <CardContent className="header-container flex flex-col md:flex-row gap-4 md:gap-0">
+        <div className="header-logo-section w-full md:w-auto flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-4 md:gap-2">
           <div className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center">
             <Image
               src="/galileo.svg"
@@ -48,7 +48,7 @@ export default function Header() {
             </span>
           </div>
         </div>
-        <div className="header-status-section">
+        <div className="header-status-section w-full md:w-auto flex flex-col items-center md:items-end gap-2">
           <div className="flex items-center space-x-2">
             <div
               className={`w-2 h-2 rounded-full ${
