@@ -23,7 +23,7 @@ While the project is extremely rough around the edges, I tried to follow some be
 ### Suggestions for future improvements
 
 - Better de-duplication of global styles, many styles are duplicated, ideally.
-- Add `tailwind.config.js` for better class name generation.
+- Add `tailwind.config.js` for better class name and theme management.
 - Move over more styles to globals.css. Some components are still using tailwind classes, ideally no component should be adding its own margins, font sizes etc. to maintain the project's standard.
 - Implement atomic design for somponents - `atoms`, `molecules` and `organisms`. Either that, ot better structure the folders. More modularization can definitely be done e.g. `h3`s are used in many places that can be their own reusable component.
 - Better breakpoint management and definition. Currently its just using default tailwind breakpoints where necessary.
